@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteRule ^/?controller\/*$ - [F,L]
+RewriteRule ^/?model\/*$ - [F,L]
+RewriteRule ^trang-chu$ index.php
+RewriteRule ^sign-in$ login.php
+RewriteRule ^sign-up$ register.php
+RewriteRule ^sign-out$ logout.php
+ErrorDocument 404 /OU-WEB/
